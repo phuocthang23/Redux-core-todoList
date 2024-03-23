@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    // Định nghĩa các thư viện mặc định sẽ được bao gồm
+    "lib": ["es2020", "DOM", "DOM.Iterable"],
+    // Cách giải quyết module sẽ được sử dụng
+    "moduleResolution": "node",
+    // Phiên bản ECMAScript mục tiêu để biên dịch
+    "target": "es2020",
+    // Kiểm tra các file .js trong dự án (kiểm tra kiểu dữ liệu)
+    // "checkJs": true,
+    // Cú pháp JSX sẽ được sử dụng
+    "jsx": "react-jsx",
+    // Bỏ qua việc kiểm tra các thư viện
+    "skipLibCheck": true,
+    // Cho phép import các file TypeScript mà không cần đuôi .ts
+    // "allowImportingTsExtensions": true,
+    // Giải quyết các module JSON
+    "resolveJsonModule": true,
+    /* Linting */
+    // Bật chế độ strict
+    // "strict": true,
+    // Cảnh báo nếu có biến được khai báo nhưng không sử dụng
+    "noUnusedLocals": true,
+    // Cảnh báo nếu có tham số không được sử dụng
+    "noUnusedParameters": true,
+    // Cảnh báo nếu có case trong switch mà không có break hoặc return
+    "noFallthroughCasesInSwitch": true
+  },
+  // Các thư mục cần được loại trừ khỏi quá trình biên dịch
+  "exclude": ["node_modules"]
+}
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src"
+//   },
+//   // ...
+// }
