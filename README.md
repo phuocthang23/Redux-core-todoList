@@ -2,7 +2,8 @@
 Video tutorial: https://youtu.be/g_K1w8e0lLo \
 Live Demo: https://focused-engelbart-3d0ac1.netlify.app/
 
-# giải thích logic code filter
+# Giải thích logic code filter
+
  https://www.notion.so/logic-filter-todolist-e1fe5b6d7a5748eba3e640cbf68be0d2?pvs=4
 
 # Getting Started with Create React App
